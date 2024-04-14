@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ff6f0f;
+    font-family: sans-serif;
+}
+marquee{
+    font-size: 1.1rem;
+    margin-top: 80px;
+}
+.centre{
+    margin-top: 50px;
+    margin-left: 35%;
+}
+.upper {
+    background-color: #ff0f1f;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;}
+.logo{
+    background-image: url("gehu\ logo.png");
+    height: 3.5rem;
+    width: 70%;
+    background-size:cover;
+}
+.lower{
+   
+    background-color: white;
+    height: 440px;
+    position: absolute;
+    width: 350px;
+}
+.p2{
+    display: flex;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-left: 19%;
+    color: #120b75;
+}
+.namenpass{
+    align-items: center;
+    font-size: 10px;
+    margin-top: 30px;
+}
+.enter{
+    margin-bottom: 50px;
+}
+.lower a{
+    text-decoration: none;
+    color:#080885;
+}
+.inp{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+input{
+    font-size: 15px;
+    opacity: 40%;
+    margin-left: 1.5rem;
+    height: 35px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    border: grey solid 1px;
+}
+.signin{
+    
+    margin-left: 2.4rem;
+    height: 50px;
+    width: 400px;
+    display: flex;
+}
+button{
+    background-color: #44ac33;
+    border: none;
+    border-radius: 5px;
+    width: 280px;
+    height: 41px;
+    color: white;
+    font-weight:bold;
+}
+.userp{
+    color:#080885;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 0.85rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.footerdiv{
+    display: flex;
+    margin-top: 450px;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    font-size: 1.2rem;
+}
